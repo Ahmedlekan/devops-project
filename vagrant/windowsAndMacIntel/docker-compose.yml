@@ -38,7 +38,7 @@ services:
       timeout: 10s
       retries: 3
 
-  vprowebb:
+  vproweb:
     build:
       context: ./Docker-files/web
       dockerfile: Dockerfile
